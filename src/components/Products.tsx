@@ -91,16 +91,8 @@ export default function Products() {
               className="group relative h-[450px] rounded-3xl overflow-hidden cursor-pointer"
               onClick={() => setSelectedProduct(product)}
             >
-              {/* Card BG/Image */}
-              <div className="absolute inset-0 z-0">
-                <img 
-                  src={product.image} 
-                  alt={product.name} 
-                  className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 transition-all duration-500 scale-110 group-hover:scale-100"
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-purple via-brand-purple/40 to-transparent" />
-              </div>
+              {/* Card BG */}
+              <div className="absolute inset-0 z-0 bg-gradient-to-br from-brand-purple to-brand-deep/50 transition-colors duration-500" />
 
               {/* Content */}
               <div className="absolute inset-0 z-10 p-8 flex flex-col justify-end">
@@ -182,12 +174,9 @@ export default function Products() {
                     </div>
                   </div>
                 ) : (
-                  <img 
-                    src={selectedProduct.image} 
-                    alt={selectedProduct.name} 
-                    className="w-full h-full object-cover"
-                    referrerPolicy="no-referrer"
-                  />
+                  <div className="w-full h-full flex items-center justify-center p-12">
+                    <div className="w-32 h-32 rounded-full bg-brand-blue/5 blur-3xl" />
+                  </div>
                 )}
               </div>
 
