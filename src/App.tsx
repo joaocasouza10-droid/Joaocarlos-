@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import About from './components/About';
 import Features from './components/Features';
+import CatalogSections from './components/CatalogSections';
 import Products from './components/Products';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
@@ -23,6 +24,7 @@ export default function App() {
         <Marquee />
         <About />
         <Features />
+        <CatalogSections />
         <Products />
         <Testimonials />
         <FAQ />

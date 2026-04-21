@@ -20,10 +20,10 @@ export default function LeadMagnet() {
               <span className="text-brand-blue font-black tracking-widest uppercase text-xs mb-6 block">Oferta Exclusiva</span>
               <h2 className="text-4xl md:text-6xl font-display font-bold mb-8 leading-tight">
                 Baixe nosso <br />
-                <span className="text-brand-blue">Catálogo 2024</span>
+                <span className="text-brand-blue">Guia Definitivo</span>
               </h2>
               <p className="text-white/60 text-lg md:text-xl mb-10 leading-relaxed">
-                Descubra todos os modelos, cores e opções de personalização. Prepare o próximo brinde da sua empresa com quem entende do assunto.
+                Catálogo completo 2026: Modelos exclusivos 100% em acrílico. Brindes criativos, personalizados e acessíveis para todos os estilos e ocasiões.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
