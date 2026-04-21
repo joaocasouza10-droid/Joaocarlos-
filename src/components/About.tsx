@@ -20,7 +20,7 @@ export default function About() {
           <div className="absolute -inset-4 bg-gradient-to-tr from-brand-blue/30 to-brand-deep/30 blur-2xl opacity-50 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl" />
           <div className="relative rounded-3xl overflow-hidden border border-white/10 box-glow">
             <img 
-              src="https://i.postimg.cc/nh9GsFgh/Joao-carlos-(3).jpg" 
+              src="https://i.postimg.cc/0j1rXnSJ/Joao-Carlos-5.jpg" 
               alt="João Carlos e sua produção" 
               className="w-full h-auto object-cover transform scale-110 group-hover:scale-100 transition-transform duration-700"
               referrerPolicy="no-referrer"
